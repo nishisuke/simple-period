@@ -1,10 +1,10 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "simple/period/version"
+require 'simple_period/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "simple-period"
-  spec.version       = Simple::Period::VERSION
+  spec.version       = SimplePeriod::VERSION
   spec.authors       = ["nishisuke"]
   spec.email         = ["nishisuke13+git@gmail.com"]
 
