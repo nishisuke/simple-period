@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'simple_period/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "simple-period"
+  spec.name          = 'simple_period'
   spec.version       = SimplePeriod::VERSION
   spec.authors       = ["nishisuke"]
   spec.email         = ["nishisuke13+git@gmail.com"]
